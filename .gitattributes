@@ -1,5 +1,6 @@
-Nmap/nselib/* linguist-vendored
-Nmap/scripts/* linguist-vendored
-Nmap/nse_main.lua linguist-vendored
-nikto-master/* linguist-vendored
-ZAP/* linguist-vendored
+Nmap/** linguist-vendored
+nikto-master/** linguist-vendored
+ZAP/** linguist-vendored
+ZAP/Zed* linguist-vendored
+ZAP/Zed*/** linguist-vendored
+*.lua linguist-vendored
