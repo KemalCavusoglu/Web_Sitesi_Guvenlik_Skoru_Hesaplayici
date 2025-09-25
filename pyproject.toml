@@ -1,0 +1,18 @@
+[project]
+name = "websiteguvenlikskoru"
+version = "0.1.0"
+description = "Web Sitesi Güvenlik Skoru hesaplayıcı - MCP ile"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.10.1",
+    "requests",
+    "dnspython",
+    "python-dotenv",
+]
+
+[project.scripts]
+websiteguvenlikskoru = "run_server:main"
+
+[tool.mcp.server]
+command = ["python", "run_server.py"]

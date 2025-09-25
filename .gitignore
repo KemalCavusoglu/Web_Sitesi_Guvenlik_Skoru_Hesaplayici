@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Logs
+*.log
+*.txt
+
+# Output files
+output/*
+!output/.gitkeep
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Nikto & Nmap
+nikto-master/program/plugins/db_tests
+nikto-master/program/plugins/db_*.db
+nikto-master/program/plugins/db_*.json
