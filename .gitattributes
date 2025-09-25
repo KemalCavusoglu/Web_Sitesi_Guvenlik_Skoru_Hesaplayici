@@ -1,0 +1,3 @@
+Nmap/nselib/* linguist-vendored
+Nmap/scripts/* linguist-vendored
+Nmap/nse_main.lua linguist-vendored
